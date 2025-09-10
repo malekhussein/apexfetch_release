@@ -55,7 +55,7 @@ Packages: 1342
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/apexfetch.git
+git clone https://github.com/malekhussein/apexfetch_release.git
 cd apexfetch
 ```
 
@@ -95,7 +95,3 @@ apexfetch
 This is the **official release** of ApexFetch ✅  
 Check out the **first beta version** here: [ApexFetch Beta](https://github.com/malekhussein/apexfetch_beta)
 
----
-
-## 📜 License
-MIT License
