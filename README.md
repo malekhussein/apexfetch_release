@@ -1,28 +1,36 @@
-# ApexFetch
+# ApexFetch 🖥️✨
 
 A lightweight system information tool for Linux, inspired by **Neofetch**, written in **C++**.  
-It displays your system info **next to an ASCII logo** in your terminal.
+Displays your system info **next to an ASCII logo** in your terminal.
+
+```
+        /\        
+       /  \   _ __ 
+      / /\ \ | '_ \
+     / ____ \| | | |
+    /_/    \_\_| |_|
+```
 
 ---
 
-## Features
+## 🌟 Features
 - Displays:
-  - OS
-  - Kernel
-  - Hostname & Username
-  - Uptime
-  - CPU
-  - Memory
-  - Shell
-  - Terminal
-  - Packages installed
-- ASCII logo displayed next to system info.
-- Fully written in **C++17**.
-- Works on Linux (tested on Arch Linux).
+  - 🐧 OS
+  - 💻 Kernel
+  - 🏷️ Hostname & Username
+  - ⏱️ Uptime
+  - 🧠 CPU
+  - 🖴 Memory
+  - 🐚 Shell
+  - 🖥️ Terminal
+  - 📦 Packages installed
+- ASCII logo displayed next to system info
+- Fully written in **C++17**
+- Works on Linux (tested on Arch Linux)
 
 ---
 
-## Screenshot
+## 📸 Screenshot
 ```
        /\        
       /  \   _ __ 
@@ -31,19 +39,19 @@ It displays your system info **next to an ASCII logo** in your terminal.
    /_/    \_\_| |_|
 
 OS: Arch Linux
-Host: user (user)
+Host: linuxawy (linuxawy)
 Kernel: 6.16.5-arch1-1
 Uptime: 2h 30m
 CPU: Intel(R) Core(TM) i7-4702MQ CPU @ 2.20GHz (8 cores)
 Memory: 4500MiB / 7816MiB
 Shell: zsh
-Terminal: kitty
+Terminal: vscode
 Packages: 1342
 ```
 
 ---
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository**
 ```bash
@@ -63,7 +71,7 @@ make
 
 ---
 
-## Optional: Install system-wide
+## 📦 Optional: Install system-wide
 ```bash
 sudo cp apexfetch /usr/local/bin/
 apexfetch
@@ -71,17 +79,23 @@ apexfetch
 
 ---
 
-## Dependencies
+## 🛠️ Dependencies
 - `g++` with **C++17 support**
 - Linux system with `/proc` filesystem
 
 ---
 
-## Customize ASCII Logo
+## 🎨 Customize ASCII Logo
 - Create a file `arch.txt` in the repo folder with your custom ASCII logo.  
 - If no file exists, a default logo will be used.
 
 ---
 
-## License
+## 🔖 Version
+This is the **official release** of ApexFetch ✅  
+Check out the **first beta version** here: [ApexFetch Beta](https://github.com/malekhussein/apexfetch_beta)
+
+---
+
+## 📜 License
 MIT License
