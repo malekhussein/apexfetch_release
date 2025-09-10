@@ -1,13 +1,17 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -O2 -Wall
 
-OBJS = main.o ascii.o systeminfo.o
+SRC = main.cpp ascii.cpp systeminfo.cpp
+OBJ = $(SRC:.cpp=.o)
+TARGET = apexfetch
 
-apexfetch: $(OBJS)
-	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
+all: $(TARGET)
+
+$(TARGET): $(OBJ)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJ)
 
 %.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $<
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJS) apexfetch
+	rm -f $(OBJ) $(TARGET)
