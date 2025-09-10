@@ -68,7 +68,7 @@ make
 ```bash
 ./apexfetch
 ```
-
+** (づ｡◕‿‿◕｡)づ If you have a download error, ask ChatGPT🙃 **
 ---
 
 ## 📦 Optional: Install system-wide
