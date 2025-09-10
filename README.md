@@ -39,13 +39,13 @@ Displays your system info **next to an ASCII logo** in your terminal.
    /_/    \_\_| |_|
 
 OS: Arch Linux
-Host: linuxawy (linuxawy)
+Host: user (user)
 Kernel: 6.16.5-arch1-1
 Uptime: 2h 30m
 CPU: Intel(R) Core(TM) i7-4702MQ CPU @ 2.20GHz (8 cores)
 Memory: 4500MiB / 7816MiB
 Shell: zsh
-Terminal: vscode
+Terminal: kitty
 Packages: 1342
 ```
 
